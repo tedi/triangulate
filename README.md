@@ -1,5 +1,6 @@
 # Triangulate plugin
 Built by Tedi @RepEquity
+Add cool floating triangles to your background. If requested will add ability to add custom shapes/templates.
 
 ## Run plugin with defaults
 Include triangulate javascript and css files. Javascript file must be included after jQuery is included.
