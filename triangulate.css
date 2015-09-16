@@ -1,0 +1,53 @@
+body {
+    position: relative;
+    background: #fff;
+}
+
+svg {
+  fill:none;
+  stroke-width:2;
+  height: 30px;
+  width: 30px;
+}
+
+.rotateLeft {
+  animation: rotate-left 14s infinite linear;
+}
+
+.rotateRight {
+  animation: rotate-right 14s infinite linear;
+}
+
+.triangleContainer {
+  animation: levitate 7s alternate ease-in-out infinite;
+  position: fixed;
+  z-index: -1;
+}
+
+@keyframes rotate-right {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-left {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes levitate {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 150px);
+  }
+
+}
